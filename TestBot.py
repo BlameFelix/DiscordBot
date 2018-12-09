@@ -23,7 +23,7 @@ async def on_message(message):
         msg = 'reddit new DestinyMemes 1'.format(message)
         while(True):
             await client.send_message(message.channel, msg)
-            time.sleep(10000)
+            time.sleep(10000) #sleep time, ajust depending on ur usage
 
 @client.event
 async def on_ready():

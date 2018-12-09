@@ -1,7 +1,7 @@
 import discord
 import time
 
-TOKEN = 'NTIxMzE5MjU2NjM0NDI1MzQ0.Du6sSA.A71fTZf7CZJvZjNPHcPfQNhVR30'
+TOKEN = 'your token' #Add Bot token
 
 client = discord.Client()
 

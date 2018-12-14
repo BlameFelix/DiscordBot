@@ -14,10 +14,6 @@ async def on_message(message):
     if message.content.startswith('!hello'):
         msg = 'Hello {0.author.mention}'.format(message)
         await client.send_message(message.channel, msg)
-    #sascha ;)
-    if message.content.startswith("!Sascha"):
-        msg = 'Der hat doch kein Aim :joy:'.format(message)
-        await client.send_message(message.channel, msg)
     #function to interact with RedditBot, EndlessLoop
     if message.content.startswith("!reddit"):
         msg = 'reddit new DestinyMemes 1'.format(message)

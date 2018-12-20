@@ -1,4 +1,4 @@
-#Discord Bot
+# Discord Bot
 
 1. clone repositorie
 2. Add your bot token
